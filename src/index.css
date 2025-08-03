@@ -1,0 +1,37 @@
+/* src/index.css */
+@import "tailwindcss";
+
+
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease, font-family 0.3s ease;
+}
+
+
+.theme1 {
+  --bg: #ffffffcc;
+  --text: #000000;
+  --font: sans-serif;
+}
+
+.theme2 {
+  --bg: #1a202c;
+  --text: #ffffff;
+  --font: serif;
+}
+
+.theme3 {
+  --bg: #e6fff5;
+  --text: #1a3f2b;
+  --font: "Pacifico", cursive;
+}
+
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+}
