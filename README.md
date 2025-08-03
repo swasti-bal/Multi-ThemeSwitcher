@@ -28,7 +28,6 @@ A responsive React + Vite application with dynamic theme switching, routing, API
 ### 📦 Prerequisites
 
 - [Node.js 20](https://nodejs.org/)
-- [Git](https://git-scm.com/)
 
 ---
 
@@ -36,7 +35,7 @@ A responsive React + Vite application with dynamic theme switching, routing, API
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/yourusername/theme-switcher-app.git
+git clone https://github.com/swasti-bal/theme-switcher-app.git
 cd theme-switcher-app
 
 # 2. Install dependencies
